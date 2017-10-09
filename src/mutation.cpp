@@ -465,8 +465,8 @@ void player::activate_mutation( const trait_id &mut )
         int numslime = 1;
         for (int i = 0; i < numslime && !valid.empty(); i++) {
             const tripoint target = random_entry_removed( valid );
-            if( monster * const slime = g->summon_mon( mtype_id( "mon_player_blob" ), target ) ) {
-                slime->friendly = -1;
+            string_id<npc_template> npc_template("slime");
+            g->summon_npc( npc_template, target );
             }
         }
         if (one_in(3)) {
