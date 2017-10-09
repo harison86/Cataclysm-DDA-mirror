@@ -351,5 +351,15 @@
     "mission" : 7,
     "chat" : "TALK_DONE",
     "faction" : "hells_raiders"
+  },{
+    "type" : "npc",
+	"id" : "slime",
+	"name_unique" : "Slimespring",
+	"class" : "NC_SLIME",
+	"gender" : "male",
+	"attitude" : 3,
+	"mission" : 0,
+	"chat" : "TALK_FRIEND",
+	"faction" : "your_followers"
   }
 ]
