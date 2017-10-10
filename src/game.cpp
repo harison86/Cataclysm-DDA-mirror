@@ -6633,10 +6633,6 @@ void *game::summon_npc( const string_id<npc_template> &id, const tripoint &p )
     temp->load_npc_template( id );
     temp->spawn_at_precise( { get_levx(), get_levy() }, p );
     overmap_buffer.insert_npc( temp );
-    temp->op_of_u.trust = 20;
-    temp->op_of_u.fear = -5;
-    temp->op_of_u.value = 20;
-    temp->op_of_u.anger = -20;
     temp->mission = NPC_MISSION_NULL;
     load_npcs();
     return nullptr;
