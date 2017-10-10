@@ -315,7 +315,7 @@ class game
          */
         monster *summon_mon( const mtype_id& id, const tripoint &p );
         /**
-         * Summons a NPC that likes the player. Returns `nullptr`.
+         * Summons a NPC.
          */
         void *summon_npc( const npc_temp_id& id, const tripoint &p);
         /** Calls the creature_tracker add function. Returns true if successful. */
