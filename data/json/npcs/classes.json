@@ -424,15 +424,10 @@
     },{
 		"type" : "npc_class",
 		"id" : "NC_SLIME",
-		"name" : "Slimespring",
-		"job_description" : "I'm you!",
+		"name" : "slimeling",
+		"job_description" : "I'm part of you!",
 		"common" : false,
-		"bonus_str" : -4,
-		"skills" : [
-            { "skill": "dodge", "level" : { "rng" : [ 1, 1 ] } },
-            { "skill": "melee", "level" : { "rng" : [ 6, 6 ] } },
-			{ "skill": "barter", "level" : { "rng" : [ -4, -4 ] } }
-		],
+		"bonus_str" : -10,
 		"worn_override": "EMPTY_GROUP",
         "carry_override": "EMPTY_GROUP",
         "weapon_override": "EMPTY_GROUP",
@@ -468,7 +463,8 @@
 			[ "PER_SLIME_OK", 100 ],
 			[ "ACIDPROOF", 100 ],
 			[ "ACIDBLOOD", 100 ],
-			[ "FLIMSY3", 100 ]
+			[ "FLIMSY3", 100 ],
+            [ "ILLITERATE", 100 ]
 		]
 	}
 ]
