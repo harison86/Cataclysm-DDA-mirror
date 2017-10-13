@@ -4167,6 +4167,23 @@
         "thirst"     :    true
     },{
         "type" : "mutation",
+        "id" : "SLIMESPAWNER2",
+        "name" : "Mitosis",
+        "points" : 10,
+        "visibility" : 0,
+        "ugliness" : 0,
+        "description" : "Your body has changed further to allow you to create imperfect replicas of yourself. They are obedient and more useful than previous iterations, but also more resource intensive.",
+        "valid" : false,
+        "purifiable" : false,
+        "prereqs" : ["SLIMESPAWNER"],
+        "threshreq" : ["THRESH_SLIME"],
+        "category" : ["MUTCAT_SLIME"],
+        "active"     :    true,
+        "cost"       :    100,
+        "hunger"     :    true,
+        "thirst"     :    true
+    },{
+        "type" : "mutation",
         "id" : "HERBIVORE",
         "name" : "Herbivore",
         "points" : -3,
