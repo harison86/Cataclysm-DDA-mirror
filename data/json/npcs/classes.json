@@ -424,8 +424,8 @@
     },{
 		"type" : "npc_class",
 		"id" : "NC_SLIME",
-		"name" : "slimeling",
-		"job_description" : "I'm part of you!",
+		"name" : "Slimeling",
+		"job_description" : "I'm you!",
 		"common" : false,
 		"bonus_str" : -8,
 		"worn_override": "EMPTY_GROUP",
