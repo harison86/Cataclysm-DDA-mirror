@@ -354,7 +354,8 @@
   },{
     "type" : "npc",
 	"id" : "slime",
-	"name_unique" : "Slimespring",
+    "//" : "Slime mutant split off from Slime threshold players as an upgrade to slimesprings. Infinite NPC and has all the benefits of Slime category, but all the downsides as well, on top of being very physically weak.",
+	"name_unique" : "Slimeling",
 	"class" : "NC_SLIME",
 	"gender" : "male",
 	"attitude" : 3,
