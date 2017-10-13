@@ -427,7 +427,7 @@
 		"name" : "slimeling",
 		"job_description" : "I'm part of you!",
 		"common" : false,
-		"bonus_str" : -10,
+		"bonus_str" : -8,
 		"worn_override": "EMPTY_GROUP",
         "carry_override": "EMPTY_GROUP",
         "weapon_override": "EMPTY_GROUP",
