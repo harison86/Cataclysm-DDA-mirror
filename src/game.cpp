@@ -6629,8 +6629,8 @@ monster *game::summon_mon( const mtype_id& id, const tripoint &p )
 void *game::summon_npc( const string_id<npc_template> &id, const tripoint &p )
 {
     std::shared_ptr<npc> temp = std::make_shared<npc>();
-    temp->normalize();
     temp->load_npc_template( id );
+    temp->normalize();
     temp->spawn_at_precise( { get_levx(), get_levy() }, p );
     overmap_buffer.insert_npc( temp );
     temp->mission = NPC_MISSION_NULL;
