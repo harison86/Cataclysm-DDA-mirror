@@ -468,7 +468,6 @@ void player::activate_mutation( const trait_id &mut )
             string_id<npc_template> npc_template("slime");
             g->summon_npc( npc_template, target );
             }
-        }
         if (one_in(3)) {
             //~ Usual enthusiastic slimespring small voices! :D
             add_msg_if_player(m_good, _("wow! you look just like me! we should look out for each other!"));
